@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ANI Control launcher foreground: a robot on the grid taking the smart route to a rack -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- junctions -->
+    <path android:fillColor="#5A6168"
+        android:pathData="M54,34m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0M36,34m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0M36,54m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0M54,74m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0M72,74m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+    <!-- the route -->
+    <path android:strokeColor="#F2B705" android:strokeWidth="7"
+        android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M36,74V54H72V45" />
+    <!-- target rack -->
+    <path android:strokeColor="#F2B705" android:strokeWidth="4"
+        android:pathData="M72,34m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0" />
+    <!-- robot -->
+    <path android:fillColor="#F2B705"
+        android:pathData="M36,74m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" />
+    <path android:fillColor="#15171A" android:pathData="M36,67.5L41.5,79L36,76L30.5,79Z" />
+</vector>
